@@ -1,0 +1,37 @@
+/* Reset default margin/padding */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Navbar container */
+nav {
+background-color: rgb(0, 0, 0);
+display: flex;
+align-items: center;
+padding: 15px;
+}
+
+/* Navbar links */
+nav a {
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+font-size: 18px;
+transition: background 0.3s ease;
+}
+
+/* Hover effect */
+nav a:hover {
+background-color: #444;
+border-radius: 5px;
+}
+
+/* Logo/Icon link */
+.Icon {
+font-weight: bold;
+font-size: 22px;
+color: yellow;
+margin-right: auto; /* pushes other links to the right */
+}

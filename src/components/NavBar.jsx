@@ -8,9 +8,8 @@ export default function NavBar()
             <Link to ="/" className = "Icon">Talking about Games!!</Link>
             <Link to ="/">Home</Link>
             <Link to = "/games">Games</Link>
-            <Link to ="/about">About</Link>
-            <Link to ="/contact">Contact</Link>
-
+            <Link to ="/blog">Blogs</Link>
+            <Link to ="/login">Login</Link>
         </nav>
     )
 }

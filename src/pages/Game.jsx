@@ -5,7 +5,7 @@ export default function Games()
 {
     return (
         <div className = "container">
-            <h1>Games</h1>
+            <h1 className= "games-title">Games:</h1>
             <div className = "grid">
                 {games.map((game)=> (
                     <GameCard key = {game.id} game = {game} />

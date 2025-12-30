@@ -6,7 +6,7 @@ import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Game from './pages/Game';
 import Blog from './pages/Blog';
-import AboutUs from './pages/AboutUs';
+import Login from './pages/Login';
 
 function App()
 {
@@ -18,7 +18,7 @@ function App()
         <Route path = "/" element = { <Home/> } />
         <Route path = "/games" element = { <Game/> } />
         <Route path = "/blog" element = { <Blog/> } />
-        <Route path = "/about-us" element = { <AboutUs/> } />
+        <Route path = "/login" element = { <Login/> } />
       </Routes>
     </BrowserRouter>
 

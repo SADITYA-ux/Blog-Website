@@ -5,7 +5,6 @@ body {
   height: 100%;
   font-family: Arial, sans-serif;
   background: #0f0f0f;
-  color: #fff;
 }
 
 .container {
@@ -19,6 +18,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 25px;
   margin-top: 30px;
+  color : yellow;
 }
 
 .card {
@@ -38,22 +38,24 @@ body {
   border-radius: 10px;
 }
 
-.X1
-{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 30px;
-  color : rgb(255, 255, 255);
-  position : relative;
-  left: 15px;
-  top : 15px;
-}
-
 .Home
 {
-  background : url('/public/BgHm.jpg');
+  background-color: #eae7e7;
   background-size: cover;
   min-height: 100vh;
   width: 100%;
   position: relative;
   overflow: hidden;
 }
+
+.games-title
+{
+  color: yellowgreen;
+  position:relative;
+  top: 0px;
+  left: -130px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 45px;
+}
+
+

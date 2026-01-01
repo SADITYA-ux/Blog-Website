@@ -23,7 +23,7 @@ export default function Home()
 
                 <div className = "a2">
                     <p>Get free news about games<br/>
-                    Stay updated with the latest releases and updates.</p>
+                    Stay updated with Game Informations,Features.</p>
                 </div>
                 
             </div>
